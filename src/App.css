@@ -1,0 +1,883 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,900&display=swap');
+
+.btn-homepage{
+  background-color: #3e3e3b;
+  color: white;
+}
+
+.link-login{
+  font-size: 13px !important;
+  text-align: left;
+  color: black;
+  text-align: left !important;
+}
+
+.daftar-kiri {
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+}
+
+.button-daftar {
+  text-align: center;
+}
+
+.App {
+  object-fit: cover;
+  display: flex;
+  flex-direction: column;
+  color: #3e3e3b;
+  min-height: 100vh;
+  height: 100%;
+  font-family: 'Poppins', sans-serif;
+  overflow-x: hidden;
+}
+
+/* home */
+.navbar {
+  background-color: #4c586f;
+  color: #ebeced;
+  font-size: 1.6vw;
+  padding: 0vw 1vw;
+  margin: 0;
+  width: 100%;
+  height: fit-content;
+}
+
+.navbar-brand {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 0.6vw;
+  object-fit: cover;
+  padding: 0vw;
+}
+
+.navbar-brand a {
+  font-size: 1.6vw;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.navbar img {
+  width: 5vw;
+  height: 5vw;
+}
+
+.isiKonten {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.navbar ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.navbar li {
+  margin: 0vw 1vw;
+  /* background-color: #3e3e3b; */
+}
+
+.nav-item a:hover {
+  color: #66ffa8;
+}
+
+.nav-item a#active {
+  /* border-bottom: #66ffa8 solid 0.4vw; */
+  color: #66ffa8;
+}
+
+.profile {
+  margin-left: 2vw;
+}
+
+.profile img {
+  border-radius: 50%;
+  margin: 0vw 0;
+  width: 3vw;
+}
+
+.nama_profil {
+  margin-left: 0.6vw;
+}
+
+.nama_profil p {
+  margin-bottom: 0;
+  color: #b3cee5;
+}
+
+/* header */
+header {
+
+  width: 100%;
+  height: auto;
+  padding: 2vw;
+}
+
+.konten {
+  display: flex;
+  align-items: center;
+}
+
+.header img {
+  width: 30vw;
+  object-fit: cover;
+  padding: 0 1vw;
+}
+
+#textHeader {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.header h1 {
+  font-size: 5vw;
+  font-weight: bold;
+  margin: 0;
+  margin-left: 2vw;
+}
+
+.header p {
+  font-size: 3vw;
+  margin: 0;
+  padding-left: 2vw;
+  text-align: left;
+}
+
+/* carousel */
+.carousel-item {
+  margin: 0 0vw;
+}
+
+.carousel-inner .col {
+  display: flex;
+  justify-content: center;
+  margin: 0vw 0vw;
+  padding: 0vw;
+  height: 29vw;
+  color: #3e3e3b;
+  position: relative;
+  /* width: 20vw */
+}
+
+.carousel-inner .card {
+  margin: 0vw;
+  padding: 0vw;
+  position: relative;
+  width: 20vw;
+  display: flex;
+  justify-content: center;
+}
+.carousel-inner .card-body {
+  background-color: #ebeced;
+  height: auto;
+  width: auto;
+  border-radius: 0vw 0vw 0.51vw 0.51vw;
+  color: #3e3e3b;
+}
+
+.carousel-inner img {
+  height: 18vw;
+  object-fit: cover;
+  width: auto;
+}
+
+.carousel-inner .card h5 {
+  font-size: 2vw;
+  text-align: center;
+  font-weight: bold;
+}
+
+.carousel-inner .card p {
+  font-size: 1.4vw;
+  text-align: center;
+}
+
+.carousel-inner .card a {
+  font-size: 1.4vw;
+  display: flex;
+  justify-content: center;
+  width: 60%;
+  padding: 0.2vw 0.4vw;
+  position: absolute;
+  left: 0;
+  background-color: #3e3e3b;
+  border: 1px solid #3e3e3b;
+  border-radius: 1vw;
+  margin: 5% 16.5%;
+}
+
+.carousel-inner .card-text {
+  margin: 0vw;
+
+}
+
+.carousel-control-next {
+  visibility: hidden;
+}
+
+.carousel-control-prev {
+  visibility: hidden;
+}
+
+
+/* developer */
+.develover h2 {
+  text-align: left;
+  margin: 2vw 9vw 1vw 9vw;
+
+}
+
+.develover .container-dev {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 11vw;
+}
+
+.develover .container-dev .card {
+  background-color: #a2aab0;
+  width: 82vw;
+}
+
+.col-md-4 img {
+  width: 4vw;
+  height: 20vw;
+  object-fit: cover;
+  border-radius: 0;
+}
+
+.develover .container-dev #card-body h5{
+  text-align: left;
+  color: white;
+    text-shadow: 1vw 1vw 1vw #6c757d;
+}
+.develover .container-dev #card-body p{
+  text-align: left;
+  color: white;
+  text-shadow:0.5vw 0.5vw 0.5vw #6c757d;
+  font-weight: 600;
+}
+
+.develover .container-dev #rowDev {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+}
+
+#Informatika #rowDev {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+#Informatika #card-body p{
+  text-align: right;
+}
+
+#Informatika #card-body h5 {
+  text-align: right;
+}
+
+.col-md-4 img {
+  width: 30vw;
+}
+
+.develover .container-dev h5 {
+  font-size: 3vw;
+  color: white;
+  font-weight: bold;
+}
+
+.develover .container-dev p {
+  font-size: 2vw;
+  padding: 0vw;
+  margin: 0vw;
+}
+
+/* collection */
+/* cari */
+.museum {
+  margin: 0vw 3vw 2vw 3vw;
+  display: flex;
+  flex-direction: column;
+}
+
+
+#form {
+  display: flex;
+  justify-content: flex-end;
+  height: 100%;
+  width: 100%;
+  margin: 3vw 0vw 1vw 2vw;
+  border-radius: 0.6vw;
+  font-size: 1.6vw;
+}
+
+.inputData {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.inputData button {
+  width: 16vw;
+  height: 4vw;
+  margin-top: 3vw;
+  margin-left: 3vw;
+  background-color: #6c757d;
+  color: white;
+  font-size: 2vw;
+  border-radius: 1vw;
+  border: 1px solid #6c757d;
+}
+
+#form input {
+  margin-right: 2vw;
+  width: 22vw;
+  display: flex;
+  align-items: center;
+}
+
+#form .btn {
+  width: auto;
+  margin: 0vw 4vw 0vw 0vw;
+}
+
+/* tambah */
+.tambah {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2vw 0vw; 
+  margin: 0 15vw;
+}
+
+
+.formInput{
+  color: black;
+  background-color: #ebeced;
+  border-radius: 2vw;
+  padding: 4vw 6vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 80vw;
+}
+
+.formInput h2 {
+  align-self: center;
+}
+
+.formInput input,textarea{
+  width: 60vw;
+  margin-bottom: 1vw;
+  font-size: 2vw;
+}
+
+.formInput
+textarea {
+  height: 10vw;
+  margin-bottom: 1vw;
+}
+.formInput button {
+  margin-top: 1vw;
+  width: 20vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+}
+
+/* button negara */
+
+.button_negara {
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  margin: 1vw;
+  border-radius: 4vw;
+}
+
+.btn:hover {
+  color: #4c586f;
+  background-color: #ebeced;
+}
+
+/* daftar benda */
+
+
+#daftarBarang {
+  margin: 0vw 2vw;
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  justify-content: flex-start;
+}
+
+#daftarBarang .col {
+  margin: 0vw;
+
+}
+
+#daftarBarang .card {
+  background-color: #ebeced;
+  color: #3e3e3b;
+  width: 20vw;
+  height: 39vw;
+  margin-right: 0vw;
+  margin: 1vw 1vw;
+  padding: 0;
+  position: relative;
+  border-radius: 1vw;
+}
+
+#daftarBarang .card img {
+  border-radius: 1vw 1vw 0vw 0vw;
+  /* border-radius: 1vw 1vw ; */
+  height: 15vw;
+  object-fit: cover;
+}
+
+#daftarBarang .card h5 {
+  color: #3e3e3b;
+  text-align: left;
+  font-size: 2vw;
+  margin: 0vw;
+  font-weight: bold;
+
+}
+
+#daftarBarang .card p {
+  color: #3e3e3b;
+  text-align: left;
+  font-size: 1.4vw;
+  margin: 0.2vw;
+}
+
+#daftarBarang .card a {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  bottom: 1vw;
+  width: auto;
+  border-radius: 1vw;
+
+}
+
+/* faq */
+.faq {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2vw 0vw;
+}
+
+.faq h1 {
+  text-align: center;
+  font-size: 6vw;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.faq h2 {
+  font-size: 2vw;
+}
+
+.accordion {
+  margin-bottom: 4vw;
+}
+.accordion-body {
+  text-align: left;
+}
+
+.accordion-item {
+  width: 50vw;
+  margin: 0vw;
+}
+
+.accordion-item button {
+  background-color: #6c757d;
+  border: 1px solid #a2aab0;
+  font-size: 2vw;
+  color: white;
+}
+
+.accordion-collapse {
+  background-color: #ebeced;
+  font-size: 1.6vw;
+}
+
+/* footer */
+footer {
+  padding: 0vw 2vw 0vw 2vw;
+  background-color: #3e3e3b;
+  height: auto;
+  width: 100%;
+  padding-bottom: 2vw;
+  position: relative;
+  margin-top: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+footer h2 {
+  margin-top: 2vw;
+  color: white;
+  margin-left: 2vw;
+}
+
+footer p {
+  background-color: #3e3e3b;
+  color: white;
+  font-size: 1.4vw;
+  margin: 0vw 2vw;
+}
+
+@media only screen and (max-width: 767px) {
+  .logo img {
+    width: 5vw;
+    height: auto;
+  }
+
+  .navbar-brand a {
+    font-size: 2.4vw;
+    margin-bottom: 0;
+  }
+
+  .nav-item a {
+    font-size: 3.2vw;
+  }
+
+  .profile p {
+    font-size: 3.2vw;
+  }
+
+  .carousel-inner .row {
+    display: flex;
+    padding: 0vw;
+    margin: 0vw;
+  }
+
+  .carousel-inner .col {
+    padding: 0vw;
+    margin: 0vw;
+  }
+
+  .carousel-inner .card {
+    width: 19vw;
+    height: 28vw;
+    margin: 0vw;
+    display: flex;
+    padding: 0vw;
+    flex-direction: column;
+  }
+
+  .carousel-inner img {
+    height: 14vw;
+    object-fit: cover;
+    margin: 0;
+    padding: 0;
+    /* width: 2vw; */
+    /* border-radius: 2vw; */
+  }
+
+  .carousel-inner .card-body {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: flex-start; */
+    /* align-items: flex-start; */
+    margin: 1vw;
+    padding: 0;
+
+
+  }
+
+  .carousel-inner .card h5 {
+    font-size: 2vw;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+
+  .carousel-inner .card p {
+    font-size: 1.4vw;
+    text-align: center;
+  }
+
+  .carousel-inner .card a {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.8vw;
+    width: 14vw;
+    margin: 0vw 12%;
+    padding: 0vw;
+    bottom: 1vw;
+  }
+
+  .carousel-inner .card-text {
+    margin: 0vw;
+
+  }
+
+  .carousel-control-next {
+    visibility: hidden;
+
+  }
+
+  .carousel-control-prev {
+    visibility: hidden;
+
+  }
+
+  .develover .col-md-4 {
+    margin: 0vw;
+    width: 25%;
+
+  }
+
+  .develover .col-md-8 {
+    width: 50%;
+  }
+
+  .develover .col-md-4 img {
+    display: flex;
+    width: 20vw;
+    margin: 0;
+    height: 20vw;
+    object-fit: cover;
+  }
+
+  .develover .container-dev #card-body {
+    width: 40vw;
+    text-align: left;
+    color: white;
+    margin: 0vw;
+    padding: 1vw;
+  }
+
+  #Informatika .col-md-4 img {
+    width: 20vw;
+    border-radius: 0vw;
+  }
+
+  .develover .container-dev h5 {
+    font-size: 3vw;
+    color: white;
+
+  }
+
+  .develover .container-dev p {
+    font-size: 2vw;
+    padding: 0vw;
+    margin: 0vw;
+  }
+
+  #daftarBarang .card .card-body {
+    padding: 1vw;
+  }
+
+  #daftarBarang .card a {
+    margin: 0 1.6vw;
+    padding: 0vw;
+    width: 14vw;
+    font-size: 1.8vw;
+    bottom: 1.4vw;
+
+
+  }
+
+
+  #form input {
+    margin-right: 2vw;
+    font-size: 2.4vw;
+    height: 4vw;
+    width: 34vw;
+  }
+
+  #form .btn {
+    width: 11vw;
+    font-size: 2.4vw;
+    padding: 0;
+    height: 4vw;
+    margin: 0vw 4vw 0vw 0vw;
+  }
+
+  /* button negara */
+
+  .button_negara {
+    margin: 2vw 4vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .button_negara button {
+    margin: 1vw;
+    padding: 0vw 1.4vw;
+    width: auto;
+    font-size: 3.2vw;
+
+  }
+
+  .btn:hover {
+    color: #4c586f;
+    background-color: #ebeced;
+  }
+
+  #daftarBarang {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+  }
+
+  #daftarBarang .card {
+    margin: 1vw 2vw;
+    height: 30vw;
+    width: 90vw;
+    display: flex;
+    flex-direction: row;
+  }
+
+  #daftarBarang .card img {
+    width: 25vw;
+    height: auto;
+    border-radius: 1vw 0vw 0vw 1vw;
+  }
+
+  #daftarBarang .card-body {
+    margin: 1vw;
+  }
+
+  #daftarBarang .card-body h5 {
+    font-size: 3.4vw;
+  }
+
+  #daftarBarang .card-body p {
+    font-size: 2.8vw;
+  }
+
+  #daftarBarang .card-body a {
+    font-size: 2.8vw;
+    width: 20vw;
+    margin-bottom: 1vw;
+    margin-left: 0;
+
+  }
+
+
+  .accordion-item {
+    width: 60vw;
+
+  }
+
+  .accordion-header button {
+    font-size: 3vw;
+    margin: 0;
+  }
+
+  .accordion-body {
+    font-size: 2.4vw;
+
+  }
+
+  .accordion-body ul {
+    padding-left: 3.4vw;
+    margin-bottom: 0vw;
+  }
+
+  .footer {
+    font-size: 2.4vw;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width : 1281px) {
+  .navbar-nav li {
+    font-size: 2vw;
+  }
+
+  .nama_profil p {
+    font-size: 2vw;
+  }
+
+  .carousel-inner .row {
+    display: flex;
+    padding: 0vw;
+    margin: 1vw;
+  }
+
+  .carousel-inner .card {
+    background-color: #a2aab0;
+    width: 18vw;
+    height: 27vw;
+    margin: 2vw 0vw 2vw 0vw;
+    /* padding: ; */
+    color: white;
+    position: relative;
+    /* border-radius: 2vw ; */
+  }
+
+  .carousel-inner img {
+    height: 14vw;
+    object-fit: cover;
+    /* width: 2vw; */
+    /* border-radius: 2vw; */
+
+  }
+
+  .carousel-inner .card h5 {
+    font-size: 2vw;
+    text-align: center;
+  }
+
+  .carousel-inner .card p {
+    font-size: 1.4vw;
+    text-align: center;
+  }
+
+  .carousel-inner .card a {
+    display: flex;
+    justify-content: center;
+    width: 12vw;
+    bottom: 1vw;
+  }
+
+  .carousel-inner .card-text {
+    margin: 0vw;
+
+  }
+
+  .carousel-control-next {
+    visibility: hidden;
+
+  }
+
+  .carousel-control-prev {
+    visibility: hidden;
+
+  }
+}
